@@ -50,10 +50,10 @@ class UserRepository
     /**
      *
      * @param array $user
-     * @param string $userId
+     * @param int $userId
      * @return void
      */
-    public function update(array $user, string $userId)
+    public function update(array $user, int $userId)
     {
         try {
             DB::beginTransaction();
